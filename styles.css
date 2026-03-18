@@ -490,7 +490,7 @@ section {
 .stats-milestones {
   position: relative;
   padding: 100px 0;
-  background: url('Krishna-Groups/KrishnaGroup_Redesign/about.png') no-repeat center center/cover;
+  background: url('KrishnaGroup_Redesign/about.png') no-repeat center center/cover;
   background-attachment: fixed;
   /* Normal scroll effect as per user request */
 }
