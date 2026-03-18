@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Group | Luxury Apartment Builders in Chennai</title>
+    <meta name="description"
+        content="Redefining luxury living in Chennai since 1983. Explore premium residential projects by Krishna Group, including Krishna Zirve and Krishna Unnati.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png?v=2">
+    <!-- Google Fonts: Montserrat for Headings, Roboto for Body -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar Removed per user request for Landing Page layout -->
+
+    <!-- Hero Section (Landing Page Style) -->
+    <section class="hero" id="home">
+        <img src="banner.png" alt="Luxury Real Estate" class="hero-bg">
+        <div class="container hero-container">
+            
+            <!-- Top Left Branding (Now inside container for alignment) -->
+            <div class="hero-top-branding">
+                <span class="hero-presenting-label">PRESENTING</span>
+                <img src="logo.png" alt="Krishna Group Official Logo" class="hero-top-logo">
+                <div class="hero-zirve-branding">
+                    <span class="hero-zirve-prefix">PREMIUM RESIDENCES</span>
+                    <h2 class="hero-zirve-name">ZIRVE</h2>
+                </div>
+            </div>
+
+            <!-- Left Aligned Headline and Button -->
+            <div class="hero-main-content">
+                <h1>HOMES WHERE EVERY<br>SUNRISE IS YOURS.</h1>
+                <button id="open-enquiry-modal" class="btn btn-primary"
+                    style="margin-top: 25px; padding: 15px 50px; font-size: 16px; border-radius: 4px; box-shadow: 0 15px 30px rgba(215, 25, 32, 0.4); text-transform: uppercase; font-weight: 700; align-self: flex-start;">ENQUIRE
+                    NOW</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Enquiry' Modal -->
+    <div id="enquiry-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="hero-form-container"
+                style="width: 100%; box-shadow: none; margin: 0; background: none; backdrop-filter: none;">
+                <h3
+                    style="margin-bottom: 25px; font-family: var(--font-serif); font-size: 24px; color: var(--primary-color); text-align: center;">
+                    Register Interest</h3>
+                <form id="hero-enquiry" class="landing-form">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <div class="phone-input-group">
+                            <span class="country-code">
+                                <img src="https://flagcdn.com/w20/in.png" alt="India"> +91
+                            </span>
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Enter Your Email" required>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="privacy-policy" checked required>
+                        <label for="privacy-policy">I agree to the Privacy Policy.</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block"
+                        style="width: 100%; border-radius: 2px; font-size: 16px;">ENQUIRE NOW</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Heritage Section -->
+    <section class="heritage" id="about">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Legacy</h2>
+                <div class="divider"></div>
+                <p
+                    style="margin-top: 20px; color: var(--text-light); max-width: 800px; margin-left: auto; margin-right: auto;">
+                    Since 1983, Krishna Group has been a pioneer in the real estate industry, delivering affordably
+                    priced luxury homes that blend modern design with world-class amenities.
+                </p>
+            </div>
+
+            <div class="legacy-grid">
+                <div class="legacy-image reveal">
+                    <div class="legacy-slider" style="position: relative; width: 100%; aspect-ratio: 4/3; overflow: hidden; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.15);">
+                        <img src="Gallery/prog_1.jpg" alt="Construction Progress 1" class="legacy-slide" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity: 1; transition: opacity 1s ease;">
+                        <img src="Gallery/prog_2.jpg" alt="Construction Progress 2" class="legacy-slide" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity: 0; transition: opacity 1s ease;">
+                        <img src="Gallery/prog_3.jpg" alt="Construction Progress 3" class="legacy-slide" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity: 0; transition: opacity 1s ease;">
+                        <img src="Gallery/prog_4.jpg" alt="Construction Progress 4" class="legacy-slide" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity: 0; transition: opacity 1s ease;">
+                        <img src="Gallery/prog_5.jpg" alt="Construction Progress 5" class="legacy-slide" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity: 0; transition: opacity 1s ease;">
+                        <img src="Gallery/prog_6.jpg" alt="Construction Progress 6" class="legacy-slide" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity: 0; transition: opacity 1s ease;">
+                    </div>
+                    <div class="legacy-experience-badge">
+                        <i class="fas fa-award" style="color: var(--accent-color); font-size: 18px; margin-bottom: 8px;"></i>
+                        <span class="badge-num">40+</span>
+                        <span class="badge-text" style="line-height: 1.4;">Years of<br>Excellence</span>
+                        <span style="font-size: 9px; opacity: 0.5; margin-top: 5px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Est. 1983</span>
+                    </div>
+                </div>
+                <div class="legacy-content reveal" style="transition-delay: 0.2s;">
+                    <h3 class="legacy-subtitle">A Rich Heritage of Trust</h3>
+                    <p class="legacy-description">
+                        Since 1983, Krishna Group has been a pioneer in the real estate industry, delivering affordably
+                        priced luxury homes that blend modern design with world-class amenities. Our tradition of
+                        excellence and innovation has made us a trusted name in property development.
+                        <br><br>
+                        We don't just build apartments; we create communities that offer a premium lifestyle and lasting
+                        value for generations.
+                    </p>
+                    <div class="legacy-features">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fas fa-microchip"></i></div>
+                            <div class="feature-text">
+                                <h4>Futuristic Technology</h4>
+                                <p>Smart home features and advanced building techniques.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                            <div class="feature-text">
+                                <h4>Trusted Heritage</h4>
+                                <p>Over four decades of transparency and reliability.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics / Milestones Section -->
+    <section class="stats-milestones reveal">
+        <div class="container stats-container">
+            <div class="stat-card">
+                <div class="stat-number" data-target="4">0</div>
+                <div class="stat-label">DECADES OF EXPERIENCE</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="70">0</div>
+                <div class="stat-label">COMPLETED PROJECTS</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="3500">0</div>
+                <div class="stat-label">HAPPY FAMILIES</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Snapshot Section (New Information from Image) -->
+    <section class="project-snapshot reveal" id="snapshot">
+        <div class="container">
+            <div class="snapshot-flex">
+                <div class="snapshot-content">
+                    <span class="snapshot-label">Project Overview</span>
+                    <h2 class="snapshot-title">Zirve at Saligramam</h2>
+                    <p class="snapshot-desc">
+                        Strategically positioned at the backdrop of an enticing lifestyle nourished with all
+                        conveniences around you, <strong>Zirve at Saligramam</strong> is an embodiment of lifestyle
+                        essentials. Adorned with charm and comfort across the length and breadth of the project, Zirve
+                        is indeed an address of your lifestyle statement!
+                    </p>
+                    <div class="snapshot-highlight">
+                        <i class="fas fa-gem"></i>
+                        <span>The 2nd floor units come with the extravagance of a private terrace.</span>
+                    </div>
+                </div>
+                <div class="snapshot-stats">
+                    <div class="snap-stat-item">
+                        <span class="snap-val">21.8</span>
+                        <span class="snap-label">Ground Parcel</span>
+                    </div>
+                    <div class="snap-stat-item">
+                        <span class="snap-val">12</span>
+                        <span class="snap-label">Storey Structure</span>
+                    </div>
+                    <div class="snap-stat-item">
+                        <span class="snap-val">110</span>
+                        <span class="snap-label">Luxury Units</span>
+                    </div>
+                    <div class="snap-stat-item">
+                        <span class="snap-val">3 BHK</span>
+                        <span class="snap-label">1815 & 1819 Sq.Ft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consolidated Explore Project Section -->
+    <section class="explore-project reveal" id="explore">
+        <div class="container">
+            <div class="explore-header">
+                <span class="explore-label">Explore</span>
+                <h2>Krishna Zirve</h2>
+            </div>
+
+            <div class="explore-main-flex">
+                <div class="explore-tabs-nav">
+                    <button class="explore-tab-link active" data-explore-tab="explore-amenities">Amenities</button>
+                    <button class="explore-tab-link" data-explore-tab="explore-gallery">Gallery</button>
+                    <button class="explore-tab-link" data-explore-tab="explore-floor-plans">Floor Plan</button>
+                </div>
+
+                <div class="explore-content-wrap">
+                    <!-- Amenities Tab - Premium Horizontal Flow Layout -->
+                    <div id="explore-amenities" class="explore-tab-content active">
+                        <div class="amenities-horizontal-container">
+                            
+                            <!-- Row 1: Common Amenities -->
+                            <div class="amenity-horizontal-row">
+                                <div class="row-header">
+                                    <span class="row-label">Common</span>
+                                    <h4>Facilities</h4>
+                                </div>
+                                <div class="amenity-row-grid">
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-table-tennis-paddle-ball"></i></div>
+                                        <span>Table Tennis</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-car"></i></div>
+                                        <span>Car Park</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-elevator"></i></div>
+                                        <span>16 Pax Lifts</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-dumbbell"></i></div>
+                                        <span>Elite Gym</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-solar-panel"></i></div>
+                                        <span>Solar Lighting</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-faucet-drip"></i></div>
+                                        <span>WTP Plant</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-phone-alt"></i></div>
+                                        <span>Intercom</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-restroom"></i></div>
+                                        <span>Staff Toilets</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-bolt"></i></div>
+                                        <span>100% Backup</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-fire-extinguisher"></i></div>
+                                        <span>Fire Safety</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 2: Advanced Features -->
+                            <div class="amenity-horizontal-row">
+                                <div class="row-header">
+                                    <span class="row-label">Advanced</span>
+                                    <h4>Technical Features</h4>
+                                </div>
+                                <div class="amenity-row-grid">
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-layer-group"></i></div>
+                                        <span>Designer Flooring</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-th"></i></div>
+                                        <span>Paver Blocks</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-bug-slash"></i></div>
+                                        <span>Anti-Termite</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-building"></i></div>
+                                        <span>Multipurpose Hall</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-recycle"></i></div>
+                                        <span>STP Plant</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-video"></i></div>
+                                        <span>Video Door Phone</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-shield-alt"></i></div>
+                                        <span>CCTV Security</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-cloud-showers-heavy"></i></div>
+                                        <span>RWH System</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-paint-roller"></i></div>
+                                        <span>Terrace Paint</span>
+                                    </div>
+                                    <div class="h-amenity-item">
+                                        <div class="amenity-pic-wrap"><i class="fas fa-satellite-dish"></i></div>
+                                        <span>DTH Connection</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Gallery Tab -->
+                    <div id="explore-gallery" class="explore-tab-content">
+                        <div class="explore-grid gallery-grid-special">
+                            <div class="explore-card"><img src="Gallery/gallery_1.jpg" alt="Zirve Architecture"><div class="card-caption"><i class="fas fa-expand"></i><h4>Architecture</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_2.jpg" alt="Premium View"><div class="card-caption"><i class="fas fa-expand"></i><h4>Premium View</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_3.jpg" alt="Luxury Living"><div class="card-caption"><i class="fas fa-expand"></i><h4>Luxury Living</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_4.jpg" alt="Modern Design"><div class="card-caption"><i class="fas fa-expand"></i><h4>Modern Design</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_5.jpg" alt="Interior Details"><div class="card-caption"><i class="fas fa-expand"></i><h4>Interior Details</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_6.jpg" alt="Executive Suites"><div class="card-caption"><i class="fas fa-expand"></i><h4>Executive Suites</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_7.jpg" alt="Urban Lifestyle"><div class="card-caption"><i class="fas fa-expand"></i><h4>Urban Lifestyle</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_8.jpg" alt="Master Crafts"><div class="card-caption"><i class="fas fa-expand"></i><h4>Master Crafts</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_9.jpg" alt="Zen Space"><div class="card-caption"><i class="fas fa-expand"></i><h4>Zen Space</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_10.jpg" alt="Elite Lounge"><div class="card-caption"><i class="fas fa-expand"></i><h4>Elite Lounge</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_11.jpg" alt="Grand Entrance"><div class="card-caption"><i class="fas fa-expand"></i><h4>Grand Entrance</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_12.jpg" alt="Sunset View"><div class="card-caption"><i class="fas fa-expand"></i><h4>Sunset View</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_13.jpg" alt="Chic Decor"><div class="card-caption"><i class="fas fa-expand"></i><h4>Chic Decor</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_14.jpg" alt="Prime Facade"><div class="card-caption"><i class="fas fa-expand"></i><h4>Prime Facade</h4></div></div>
+                            <div class="explore-card"><img src="Gallery/gallery_15.jpg" alt="Evening Ambiance"><div class="card-caption"><i class="fas fa-expand"></i><h4>Evening Ambiance</h4></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Floor Plan Tab -->
+                    <div id="explore-floor-plans" class="explore-tab-content">
+                        <div class="explore-floor-plan-wrap auto-scroll-wrapper">
+                            <div class="floor-plan-slider" id="floor-plan-slider">
+                                <div class="floor-item active">
+                                    <div class="floor-label-overlay">Stilt Floor Plan</div>
+                                    <img src="stilt_floor_plan.png" alt="Stilt Floor Plan">
+                                </div>
+                                <div class="floor-item">
+                                    <div class="floor-label-overlay">1st Floor Parking</div>
+                                    <img src="parking_floor_plan.png" alt="1st Floor Parking">
+                                </div>
+                                <div class="floor-item">
+                                    <div class="floor-label-overlay">2nd Floor Plan</div>
+                                    <img src="second_floor_plan.webp" alt="2nd Floor Plan">
+                                </div>
+                                <div class="floor-item">
+                                    <div class="floor-label-overlay">Typical Floor Plan (3rd - 12th)</div>
+                                    <img src="typical_floor_plan.webp" alt="Typical Floor Plan">
+                                </div>
+                                <div class="floor-item">
+                                    <div class="floor-label-overlay">Typical Unit Plan</div>
+                                    <img src="typical_unit_plan.webp" alt="Typical Unit Plan">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Detailed Specifications - Architectural Row List (Non-Card Design) -->
+    <section class="detailed-specs reveal" id="specifications-detailed">
+        <div class="container">
+            <div class="section-title">
+                <h2>Project Specifications</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="spec-editorial-wrap">
+                <!-- 01 Structure -->
+                <div class="spec-editorial-item reveal">
+                    <div class="spec-meta">
+                        <span class="spec-number">01</span>
+                        <h3 class="spec-title">The Foundation & Frame</h3>
+                    </div>
+                    <div class="spec-body">
+                        <ul class="spec-list">
+                            <li>Pile foundation as per Structural Drawing.</li>
+                            <li>R.C.C Framed Structure with Columns & Beams.</li>
+                            <li>External & Partition Walls in Cement / AAC Blocks.</li>
+                            <li>Internal Gypsum & External Cement Plastering.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 02 Flooring -->
+                <div class="spec-editorial-item reveal">
+                    <div class="spec-meta">
+                        <span class="spec-number">02</span>
+                        <h3 class="spec-title">Bespoke Flooring</h3>
+                    </div>
+                    <div class="spec-body">
+                        <ul class="spec-list">
+                            <li>2 X 2 Vitrified Tiles for Living & Dining.</li>
+                            <li>Anti-Skid Tiles in Balcony & Restrooms.</li>
+                            <li>Premium tiling for Bedrooms and Kitchen.</li>
+                            <li>Architectural floor patterns for common areas.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 03 Windows -->
+                <div class="spec-editorial-item reveal">
+                    <div class="spec-meta">
+                        <span class="spec-number">03</span>
+                        <h3 class="spec-title">Apertures & Access</h3>
+                    </div>
+                    <div class="spec-body">
+                        <ul class="spec-list">
+                            <li>Main Door: Teak Wood Veneer finish.</li>
+                            <li>Internal: Engineered Door Frame - Laminate.</li>
+                            <li>UPVC French doors with Sliding glass.</li>
+                            <li>MS Grill for all windows as per design.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 04 Kitchen -->
+                <div class="spec-editorial-item reveal">
+                    <div class="spec-meta">
+                        <span class="spec-number">04</span>
+                        <h3 class="spec-title">Gourmet Kitchen</h3>
+                    </div>
+                    <div class="spec-body">
+                        <ul class="spec-list">
+                            <li>Wall tiles up to 2' above Granite Platform.</li>
+                            <li>SS sink with drain board for all kitchens.</li>
+                            <li>Provision for Water Purifier & Dish Washer.</li>
+                            <li>Sleek architectural plumbing fixtures.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 05 Bathrooms -->
+                <div class="spec-editorial-item reveal">
+                    <div class="spec-meta">
+                        <span class="spec-number">05</span>
+                        <h3 class="spec-title">The Sanctuary</h3>
+                    </div>
+                    <div class="spec-body">
+                        <ul class="spec-list">
+                            <li>Kohler / Jaquar or equivalent closets.</li>
+                            <li>Premium Kohler / Jaquar CP Fittings.</li>
+                            <li>Shower partition & False Ceiling included.</li>
+                            <li>Provision for Geyser and Exhaust Fan.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 06 Electrical -->
+                <div class="spec-editorial-item reveal">
+                    <div class="spec-meta">
+                        <span class="spec-number">06</span>
+                        <h3 class="spec-title">Energy & Connection</h3>
+                    </div>
+                    <div class="spec-body">
+                        <ul class="spec-list">
+                            <li>Three Phase Power Supply with EB meters.</li>
+                            <li>Modular Switches & Split AC provision.</li>
+                            <li>1.5 KVA Power Back up included.</li>
+                            <li>TV & Data points in all main rooms.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Advantages Section -->
+    <section class="location-advantages reveal" id="location">
+        <div class="container">
+            <div class="section-title">
+                <h2>Location Advantages</h2>
+                <div class="divider"></div>
+                <p
+                    style="margin-top: 20px; color: var(--text-light); max-width: 700px; margin-left: auto; margin-right: auto;">
+                    Strategically located in the heart of Vadapalani, offering seamless connectivity to Chennai's
+                    premier entertainment hubs, spiritual centers, and top-tier healthcare facilities.
+                </p>
+            </div>
+
+            <div class="location-grid">
+                <div class="location-item">
+                    <div class="location-icon"><i class="fas fa-om"></i></div>
+                    <div class="location-time">3 MINS</div>
+                    <div class="location-name">Vadapalani Murugan Temple</div>
+                </div>
+                <div class="location-item">
+                    <div class="location-icon"><i class="fas fa-shopping-bag"></i></div>
+                    <div class="location-time">5 MINS</div>
+                    <div class="location-name">Forum Nexus Mall</div>
+                </div>
+                <div class="location-item">
+                    <div class="location-icon"><i class="fas fa-hospital"></i></div>
+                    <div class="location-time">5 MINS</div>
+                    <div class="location-name">SIMS Hospital</div>
+                </div>
+                <div class="location-item">
+                    <div class="location-icon"><i class="fas fa-film"></i></div>
+                    <div class="location-time">5 MINS</div>
+                    <div class="location-name">AVM Studios</div>
+                </div>
+                <div class="location-item">
+                    <div class="location-icon"><i class="fas fa-subway"></i></div>
+                    <div class="location-time">8 MINS</div>
+                    <div class="location-name">Vadapalani Metro Station</div>
+                </div>
+                <div class="location-item">
+                    <div class="location-icon"><i class="fas fa-plane-departure"></i></div>
+                    <div class="location-time">30 MINS</div>
+                    <div class="location-name">Chennai International Airport</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drone Perspective Section -->
+    <section class="video-experience reveal">
+        <div class="container">
+            <div class="section-title">
+                <h2>Aerial Perspective</h2>
+                <div class="divider"></div>
+                <p
+                    style="margin-top: 20px; color: var(--text-light); max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Witness the majestic presence of Krishna Zirve from above, perfectly integrated into the vibrant
+                    landscape of Chennai.
+                </p>
+            </div>
+
+            <div class="video-wrapper">
+                <div class="video-inner drone-video-thumb">
+                    <img src="legacy_drone.jpg" alt="Krishna Zirve Drone View">
+                    <div class="video-play-overlay">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="video-accent-border"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Location Section -->
+    <section class="project-location reveal">
+        <div class="container">
+            <div class="section-title">
+                <h2>Project Location</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="map-container">
+                <div class="map-inner">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15545.922114389025!2d80.1982705!3d13.0401564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266e7f8e8e8e9%3A0x6a0c9a0c9a0c9a0d!2sSaligramam!5e0!3m2!1sen!2sin!4v1710688000000!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="map-overlay-card">
+                    <h3>Krishna Zirve</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Arunachalam Road, Saligramam, Chennai, Tamil Nadu 600093</p>
+                    <a href="https://maps.app.goo.gl/6Lpj8BBsx5TWXdp98" target="_blank" class="btn btn-primary"
+                        style="padding: 10px 20px; font-size: 14px;">GET DIRECTIONS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col reveal">
+                <img src="logo.png" alt="Krishna Group Official Logo" style="height: 50px; margin-bottom: 25px;">
+                <p>Establishing landmarks in Chennai since 1983.</p>
+                <div class="footer-url" style="margin: 15px 0; color: #fff; font-size: 14px; letter-spacing: 1px;">
+                    <a href="https://krishnagroups.com/zirveproject" style="color: var(--accent-color); font-weight: 700;">krishnagroups.com/zirveproject</a>
+                </div>
+                <div class="social-links" style="display: flex; gap: 15px; margin-top: 25px;">
+                    <a href="#" style="background: var(--accent-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" style="background: var(--accent-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="fab fa-instagram"></i></a>
+                    <a href="#" style="background: var(--accent-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" style="background: var(--accent-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col reveal" style="transition-delay: 0.1s;">
+                <h4>Quick Links</h4>
+                <ul style="color: #bbb;">
+                    <li style="margin-bottom: 10px;"><a href="#home">Home</a></li>
+                    <li style="margin-bottom: 10px;"><a href="#explore">Explore Hub</a></li>
+                    <li style="margin-bottom: 10px;"><a href="#about">About Legacy</a></li>
+                    <li style="margin-bottom: 10px;"><a href="#snapshot">Project Overview</a></li>
+                </ul>
+            </div>
+            <div class="footer-col reveal" style="transition-delay: 0.2s;">
+                <h4>Projects Hub</h4>
+                <ul style="color: #bbb;">
+                    <li style="margin-bottom: 10px;"><a href="#">Krishna Zirve</a></li>
+                    <li style="margin-bottom: 10px;"><a href="#">Krishna Unnati</a></li>
+                    <li style="margin-bottom: 10px;"><a href="#">Elevaar</a></li>
+                    <li style="margin-bottom: 10px;"><a href="#">Shangri-La</a></li>
+                </ul>
+            </div>
+            <div class="footer-col reveal" style="transition-delay: 0.3s;">
+                <h4>Contact Details</h4>
+                <p><i class="fas fa-map-marker-alt" style="color: var(--accent-color); margin-right: 10px;"></i>
+                    25, Arunachalam Rd,<br> Saligramam, Chennai 600093</p>
+                <p><i class="fas fa-phone-alt" style="color: var(--accent-color); margin-right: 10px;"></i>044 2822 4455</p>
+                <p><i class="fas fa-envelope" style="color: var(--accent-color); margin-right: 10px;"></i>contact@krishnagroup.com</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 40px; padding-top: 25px; border-top: 1px solid rgba(255,255,255,0.05); color: #777; font-size: 13px;">
+            <p>&copy; 2026 Krishna Group. Redefining Urban Luxury. | <a href="https://krishnagroups.com/zirveproject" style="color: #bbb; text-decoration: underline;">Official Project Portal</a></p>
+        </div>
+    </footer>
+
+    <!-- Gallery Lightbox Modal -->
+    <div id="gallery-lightbox" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Gallery Image Full View">
+            <h4 id="lightbox-caption"></h4>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
