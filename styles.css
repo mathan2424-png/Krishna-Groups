@@ -490,9 +490,12 @@ section {
 .stats-milestones {
   position: relative;
   padding: 100px 0;
-  background: url('KrishnaGroup_Redesign/about.png') no-repeat center center/cover;
-  background-attachment: fixed;
-  /* Normal scroll effect as per user request */
+  background-image: url('KrishnaGroup_Redesign/about.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-color: #1a1a1a; /* Fallback for transparency or missing image */
 }
 
 .stats-milestones::before {
@@ -848,24 +851,117 @@ section {
 footer {
   background: var(--primary-color);
   color: white;
-  padding: var(--spacing-lg) 0 40px;
+  padding: 30px 0 30px;
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
-  gap: 40px;
+  grid-template-columns: 1.5fr 0.8fr 0.8fr 1.5fr;
+  gap: 50px;
+  align-items: flex-start;
 }
 
 .footer-col h4 {
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 35px;
   color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  position: relative;
+}
+
+.footer-col h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  width: 30px;
+  height: 2px;
+  background: var(--accent-color);
+  opacity: 0.5;
 }
 
 .footer-col p {
   color: #bbb;
   margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.footer-col ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  color: #bbb;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.footer-col ul li a:hover {
+  color: white;
+  padding-left: 5px;
+}
+
+/* Contact Item Alignment */
+.footer-col .contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: #bbb;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer-col .contact-item i {
+  color: var(--accent-color);
+  font-size: 16px;
+  margin-top: 4px;
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* Social Links Refinement */
+.social-links a:hover {
+  transform: translateY(-5px);
+  background: white !important;
+  color: var(--accent-color) !important;
+}
+
+@media (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .footer-col h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer-col .contact-item {
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
 }
 
 @keyframes fadeIn {
@@ -1608,8 +1704,8 @@ footer {
   gap: 12px;
   padding: 25px 15px;
   text-align: center;
-  border: 1px solid #f0f0f0;
-  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background:#fff;
   position: relative;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   opacity: 0;
@@ -1636,26 +1732,26 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fdfdfd;
-  border: 1px solid #eee;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
   transition: all 0.4s ease;
   margin-bottom: 10px;
 }
 
 .amenity-pic-wrap i {
   font-size: 20px;
-  color: var(--accent-color);
+  color: #fe0202;
   transition: all 0.4s ease;
 }
 
 .h-amenity-item:hover .amenity-pic-wrap i {
-  color: rgb(241, 6, 6);
+  color: #040404;
   transform: scale(1.1);
 }
 
 .h-amenity-item span {
   font-size: 11px;
-  color: #555;
+  color: #070707;
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
